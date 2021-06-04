@@ -45,7 +45,7 @@ export default class Blog extends Component {
                         <Col md='3' >
                             <h5 className='text-center mt-5'>Category</h5>
                             <Card>
-                                <ListGroup>
+                                <ListGroup variant='flush'>
                                     <ListGroup.Item>Html/Css</ListGroup.Item>
                                     <ListGroup.Item>JavaScript</ListGroup.Item>
                                     <ListGroup.Item>Python</ListGroup.Item>
@@ -53,7 +53,7 @@ export default class Blog extends Component {
                                     <ListGroup.Item>C++</ListGroup.Item>
                                 </ListGroup>
                             </Card>
-                            <Card className='mt-3'>
+                            <Card className='mt-3' bg='light'>
                                 <Card.Body>
                                     <Card.Title>Team Our</Card.Title>
                                     <Card.Text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Card.Text>
